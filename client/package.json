@@ -1,0 +1,19 @@
+{
+  "name": "request-reply-queue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/amqplib": "^0.10.5",
+    "@types/express": "^5.0.0",
+    "amqplib": "^0.10.4",
+    "express": "^4.21.1",
+    "ts-node": "^10.9.2"
+  }
+}
